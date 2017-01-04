@@ -1,351 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Coming+Soon|Permanent+Marker|Roboto+Condensed:400,700|Roboto:400,400i,700" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<style>
-body {
-	font-family: Roboto, arial, helvetica, sans-serif;
-	font-size: 16px;
-	line-height: 27px;
-}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon|Permanent+Marker|Roboto+Condensed:400,700|Roboto:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Roboto, arial, helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 27px;
+        }
+        
+        h1 {
+            font-size: 26px;
+        }
+        
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+        h3 {
+            font-size: 20px;
+            font-weight: normal;
+        }
+        
+        .large-text {
+            font-size: 42px;
+        }
+        
+        .slideshow-text {
+            font-family: "Coming Soon";
+        }
+        
+        .slideshow-text-alt1 {
+            font-family: "Permanent Marker";
+        }
+        
+        .color-one {
+            background-color: #01679A;
+        }
+        
+        .color-two {
+            background-color: #CB9832;
+        }
 
-h1 {
-	font-size: 26px;
-}
-
-h2 {
-	font-size: 20px;
-	font-weight: 700;
-}
-
-h3 {
-	font-size: 20px;
-	font-weight: normal;
-}
-
-.large-text {
-	font-size: 42px;
-}
-
-.slideshow-text {
-	font-family: "Coming Soon";
-}
-
-.slideshow-text-alt1 {
-	font-family: "Permanent Marker";
-}
-
-.color-one {
-	background-color: #01679A;
-}
-
-.color-two {
-	background-color: #CB9832;
-}
-</style>
+    </style>
 </head>
+
 <body>
-<div class="container">
-	<div class="row">
-		<div class="sg">
-			<div class="page-header">
-				<h1>Style Guide</h1>
-			</div>
-			<div class="content row">
-				<section class="col-xs-12 col-sm-6 col-md-8">
-					<article>
-						<p>This guide acts as a technical reference for all the design elements that make up our website. It ensures a consistent design and provides the common CSS and HTML used.</p>
-						<p><small>For enquries regarding the technical design and build contact CreativeSights.</small></p>
-					</article>
-					<article> <a name="typography"></a>
-						<h2 class="sg">Typography</h2>
-						<h1>This is an h1 Heading</h1>
-						<h2>This is an h2 Heading</h2>
-						<h3>This is an h3 Heading</h3>
-						<h4>This is an h4 Heading</h4>
-						<h5>This is an h5 Heading</h5>
-						<h6>This is an h6 Heading</h6>
-						<hr>
-						<h2 class="sg">Color Blocks</h2>
-						<div class="row">
-							<div class="col-md-6 color-one"> one </div>
-							<div class="col-md-6 color-two"> two </div>
-						</div>
-						<p class="lead">This is some lead body copy. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-						<p>This is some body copy. Donec id elit non mi porta gravida at eget metus. <a href="#" title="">This is a hyperlink</a>. Donec ullamcorper nulla non metus auctor fringilla. <strong>This is some bold text</strong>. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <em>This is some italicised text</em>. Sed posuere consectetur est at lobortis.</p>
-						<div class="row">
-							<div class="span4">
-								<ul>
-									<li>This is an unordered list</li>
-									<li>Lorem ipsum dolor sit amet
-										<ul>
-											<li>Phasellus iaculis neque</li>
-											<li>Vestibulum laoreet porttitor sem</li>
-										</ul>
-									</li>
-									<li>Consectetur adipiscing elit</li>
-								</ul>
-							</div>
-							<div class="span5">
-								<ol>
-									<li>This is an ordered list</li>
-									<li>Cras mattis consectetur purus sit amet fermentum</li>
-									<li>Praesent commodo cursus magna, vel scelerisque</li>
-									<li>Nullam quis risus eget urna mollis ornare</li>
-									<li>Donec id elit non mi porta gravida at eget metus</li>
-								</ol>
-							</div>
-						</div>
-						<p><small>This is some fine print. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</small></p>
-						<blockquote>
-							<p>This is a blockquote. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-							<small>This is a blockquote source attribution</small> </blockquote>
-						<dl class="dl-horizontal">
-							<dt>Description List</dt>
-							<dd>This is a horizontal description list.</dd>
-							<dt>Bibendum Malesuada Euismod</dt>
-							<dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
-							<dd>Donec id elit non mi porta gravida at eget metus.</dd>
-							<dt>Pellentesque Fermentum Mattis</dt>
-							<dd>Etiam porta sem malesuada magna mollis euismod.</dd>
-						</dl>
-						<p class="large-text">This is large text</p>
-						<p class="large-text slideshow-text	">This is large text for our slideshow</p>
-						<p class="large-text slideshow-text-alt1	">This is large text for our slideshow</p>
-					</article>
-					<article> <a name="tables"></a>
-						<h2 class="sg">Tables</h2>
-						<table class="table table-condensed table-hover">
-							<thead>
-								<tr>
-									<th>#</th>
-									<th>Column One</th>
-									<th>Column Two</th>
-									<th>Column Three</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>1</td>
-									<td>Dapibus</td>
-									<td>Nullam</td>
-									<td>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>Euismod</td>
-									<td>Vestibulum</td>
-									<td>Maecenas sed diam eget risus varius blandit sit amet non magna.</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>Elit</td>
-									<td>Purus</td>
-									<td>Nullam id dolor id nibh ultricies vehicula ut id elit.</td>
-								</tr>
-							</tbody>
-						</table>
-					</article>
-					<article> <a name="forms"></a>
-						<h2 class="sg">Forms</h2>
-						<form>
-							<fieldset>
-								<legend>Form Legend</legend>
-								<div class="search-query">
-									<input class="input-xlarge" type="text" placeholder="Search...">
-								</div>
-								<div class="field">
-									<label>Label for text box</label>
-									<input class="input-xlarge" type="text" placeholder="Type something...">
-								</div>
-								<div class="field">
-									<input class="input-xlarge required" type="text" placeholder="Type something...">
-									<label class="required"><i class="icon-warning-sign"></i> This is an error message</label>
-								</div>
-								<div class="field">
-									<textarea class="input-xlarge" rows="3"></textarea>
-								</div>
-								<div class="field">
-									<input class="input-xlarge" id="disabledInput" type="text" placeholder="Disabled input" disabled>
-								</div>
-								<div class="field">
-									<select>
-										<option>Please choose something...</option>
-										<option>1</option>
-										<option>2</option>
-										<option>3</option>
-									</select>
-								</div>
-								<div class="field">
-									<label class="checkbox">
-										<input type="checkbox">
-										Tick me </label>
-								</div>
-								<div class="form-actions">
-									<button type="submit" class="btn btn-primary">Save changes</button>
-									<button type="button" class="btn">Cancel</button>
-								</div>
-							</fieldset>
-						</form>
-					</article>
-					<article> <a name="buttons"></a>
-						<h2 class="sg">Buttons</h2>
-						<p class="sg"> <a href="#" class="btn" title="">Default Button</a> <a href="#" class="btn btn-primary" title="">Primary Button</a> <a href="#" class="btn btn-inverse" title="">Inverse Button</a> <a href="#" class="btn disabled" title="">Disabled Button</a> </p>
-					</article>
-					<article class="clearfix"> <a name="images"></a>
-						<h2 class="sg">Images</h2>
-						<div class="captionImage left"> <img class="left" src="themes/barnardlevit/img/sample-pic-1.jpg" alt="Sample Pic 1">
-							<p class="caption">This is an image caption.</p>
-						</div>
-					</article>
-					<article> <a name="video"></a>
-						<h2 class="sg">Video</h2>
-						<div class="widget widget-video">
-							<div class="video-container">
-								<iframe src="http://www.youtube.com/embed/jwKKbt6KfrI" frameborder="0" allowfullscreen></iframe>
-							</div>
-						</div>
-					</article>
-					<article> <a name="sub-nav-anchor"></a>
-						<h2 class="sg">Sub-Nav</h2>
-						<p>The sub-nav accordion can go to five levels deep. In order to support touch devices accordion sections can be opened and closed using the icons to the right. Clicking on a link takes you to the linked page.</p>
-						<div class="row">
-							<div class="span3">
-								<nav id="sub-nav" class="sg">
-									<ul class="accordion">
-										<li class="section current"> <a class="section current" href="#sub-nav-anchor" title="">Link 1</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
-											<ul>
-												<li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 1-1</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
-													<ul>
-														<li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 1-1-1</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
-															<ul>
-																<li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 1-1-1-1</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
-																	<ul>
-																		<li class="link current"><a class="link current" href="#sub-nav-anchor" title="">Link 1-1-1-1-1</a></li>
-																		<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-1-1-1-2</a></li>
-																		<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-1-1-1-3</a></li>
-																	</ul>
-																</li>
-																<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-1-1-2</a></li>
-																<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-1-1-3</a></li>
-															</ul>
-														</li>
-														<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-1-2</a></li>
-														<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-1-3</a></li>
-													</ul>
-												</li>
-												<li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 1-2</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
-													<ul>
-														<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-2-1</a></li>
-														<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-2-2</a></li>
-														<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-2-3</a></li>
-													</ul>
-												</li>
-												<li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 1-3</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
-													<ul>
-														<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-3-1</a></li>
-														<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-3-2</a></li>
-														<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-3-3</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 2</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
-											<ul>
-												<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 2-1</a></li>
-												<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 2-2</a></li>
-												<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 2-3</a></li>
-											</ul>
-										</li>
-										<li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 3</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
-											<ul>
-												<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 3-1</a></li>
-												<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 3-2</a></li>
-												<li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 3-3</a></li>
-											</ul>
-										</li>
-									</ul>
-								</nav>
-							</div>
-						</div>
-					</article>
-					<article> <a name="breadcrumbs"></a>
-						<h2 class="sg">Breadcrumbs</h2>
-						<ul class="breadcrumb sg">
-							<li><a href="#" title="">Page 1</a> <i class="icon-angle-right divider"></i></li>
-							<li><a href="#" title="">Page 2</a> <i class="icon-angle-right divider"></i></li>
-							<li><a href="#" title="">Page 3</a> <i class="icon-angle-right divider"></i></li>
-							<li><a href="#" title="">Page 4</a> <i class="icon-angle-right divider"></i></li>
-							<li class="active">Page 5</li>
-						</ul>
-					</article>
-					<article> <a name="pagination"></a>
-						<h2 class="sg">Pagination</h2>
-						<nav aria-label="Page navigation">
-							<ul class="pagination">
-								<li> <a href="#" aria-label="Previous"> <span aria-hidden="true">&laquo;</span> </a> </li>
-								<li><a href="#">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">5</a></li>
-								<li> <a href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span> </a> </li>
-							</ul>
-						</nav>
-					</article>
-					<article> <a name="gallery"></a>
-						<h2 class="sg">Gallery</h2>
-						<div class="widget widget-gallery">
-							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> 
-								<!-- Indicators -->
-								<ol class="carousel-indicators">
-									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-								</ol>
-								
-								<!-- Wrapper for slides -->
-								<div class="carousel-inner" role="listbox">
-									<div class="item active"> <img src="..." alt="...">
-										<div class="carousel-caption"> ... </div>
-									</div>
-									<div class="item"> <img src="..." alt="...">
-										<div class="carousel-caption"> ... </div>
-									</div>
-									... </div>
-								
-								<!-- Controls --> 
-								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
-						</div>
-					</article>
-				</section>
-				<aside class="col-xs-6 col-md-4">
-					<nav id="sg-nav" data-spy="affix" data-offset-top="180">
-						<div class="widget-title">
-							<h4>Style Guide Elements</h4>
-						</div>
-						<ul class="nav nav-list">
-							<li><a href="#typography"><i class="icon-caret-right"></i> Typography</a></li>
-							<li><a href="#tables"><i class="icon-caret-right"></i> Tables</a></li>
-							<li><a href="#forms"><i class="icon-caret-right"></i> Forms</a></li>
-							<li><a href="#buttons"><i class="icon-caret-right"></i> Buttons</a></li>
-							<li><a href="#images"><i class="icon-caret-right"></i> Images</a></li>
-							<li><a href="#video"><i class="icon-caret-right"></i> Video</a></li>
-							<li><a href="#sub-nav-anchor" title=""><i class="icon-caret-right"></i> Sub-Nav</a></li>
-							<li><a href="#quick-links"><i class="icon-caret-right"></i> Quick Links</a></li>
-							<li><a href="#breadcrumbs"><i class="icon-caret-right"></i> Breadcrumbs</a></li>
-							<li><a href="#pagination"><i class="icon-caret-right"></i> Pagination</a></li>
-							<li><a href="#gallery"><i class="icon-caret-right"></i> Gallery</a></li>
-						</ul>
-					</nav>
-				</aside>
-			</div>
-		</div>
-	</div>
-</div>
+    <div class="container">
+        <div class="row">
+            <div class="sg">
+                <div class="page-header">
+                    <h1>Style Guide</h1>
+                </div>
+                <div class="content row">
+                    <section class="col-xs-12 col-sm-6 col-md-8">
+                        <article>
+                            <p>This guide acts as a technical reference for all the design elements that make up our website. It ensures a consistent design and provides the common CSS and HTML used.</p>
+                            <p><small>For enquries regarding the technical design and build contact CreativeSights.</small></p>
+                        </article>
+                        <article>
+                            <a name="typography"></a>
+                            <h2 class="sg">Typography</h2>
+                            <h1>This is an h1 Heading</h1>
+                            <h2>This is an h2 Heading</h2>
+                            <h3>This is an h3 Heading</h3>
+                            <h4>This is an h4 Heading</h4>
+                            <h5>This is an h5 Heading</h5>
+                            <h6>This is an h6 Heading</h6>
+                            <hr>
+                            <h2 class="sg">Color Blocks</h2>
+                            <div class="row">
+                                <div class="col-md-6 color-one"> one </div>
+                                <div class="col-md-6 color-two"> two </div>
+                            </div>
+                            <p class="lead">This is some lead body copy. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                            <p>This is some body copy. Donec id elit non mi porta gravida at eget metus. <a href="#" title="">This is a hyperlink</a>. Donec ullamcorper nulla non metus auctor fringilla. <strong>This is some bold text</strong>. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. <em>This is some italicised text</em>. Sed posuere consectetur est at lobortis.</p>
+                            <div class="row">
+                                <div class="span4">
+                                    <ul>
+                                        <li>This is an unordered list</li>
+                                        <li>Lorem ipsum dolor sit amet
+                                            <ul>
+                                                <li>Phasellus iaculis neque</li>
+                                                <li>Vestibulum laoreet porttitor sem</li>
+                                            </ul>
+                                        </li>
+                                        <li>Consectetur adipiscing elit</li>
+                                    </ul>
+                                </div>
+                                <div class="span5">
+                                    <ol>
+                                        <li>This is an ordered list</li>
+                                        <li>Cras mattis consectetur purus sit amet fermentum</li>
+                                        <li>Praesent commodo cursus magna, vel scelerisque</li>
+                                        <li>Nullam quis risus eget urna mollis ornare</li>
+                                        <li>Donec id elit non mi porta gravida at eget metus</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <p><small>This is some fine print. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</small></p>
+                            <blockquote>
+                                <p>This is a blockquote. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+                                <small>This is a blockquote source attribution</small> </blockquote>
+                            <dl class="dl-horizontal">
+                                <dt>Description List</dt>
+                                <dd>This is a horizontal description list.</dd>
+                                <dt>Bibendum Malesuada Euismod</dt>
+                                <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                                <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+                                <dt>Pellentesque Fermentum Mattis</dt>
+                                <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                            </dl>
+                            <p class="large-text">This is large text</p>
+                            <p class="large-text slideshow-text	">This is large text for our slideshow</p>
+                            <p class="large-text slideshow-text-alt1	">This is large text for our slideshow</p>
+                        </article>
+                        <article>
+                            <a name="tables"></a>
+                            <h2 class="sg">Tables</h2>
+                            <table class="table table-condensed table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Column One</th>
+                                        <th>Column Two</th>
+                                        <th>Column Three</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Dapibus</td>
+                                        <td>Nullam</td>
+                                        <td>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Euismod</td>
+                                        <td>Vestibulum</td>
+                                        <td>Maecenas sed diam eget risus varius blandit sit amet non magna.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Elit</td>
+                                        <td>Purus</td>
+                                        <td>Nullam id dolor id nibh ultricies vehicula ut id elit.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </article>
+                        <article>
+                            <a name="forms"></a>
+                            <h2 class="sg">Forms</h2>
+                            <form>
+                                <fieldset>
+                                    <legend>Form Legend</legend>
+                                    <div class="search-query">
+                                        <input class="input-xlarge" type="text" placeholder="Search...">
+                                    </div>
+                                    <div class="field">
+                                        <label>Label for text box</label>
+                                        <input class="input-xlarge" type="text" placeholder="Type something...">
+                                    </div>
+                                    <div class="field">
+                                        <input class="input-xlarge required" type="text" placeholder="Type something...">
+                                        <label class="required"><i class="icon-warning-sign"></i> This is an error message</label>
+                                    </div>
+                                    <div class="field">
+                                        <textarea class="input-xlarge" rows="3"></textarea>
+                                    </div>
+                                    <div class="field">
+                                        <input class="input-xlarge" id="disabledInput" type="text" placeholder="Disabled input" disabled>
+                                    </div>
+                                    <div class="field">
+                                        <select>
+                                            <option>Please choose something...</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select>
+                                    </div>
+                                    <div class="field">
+                                        <label class="checkbox">
+                                            <input type="checkbox"> Tick me </label>
+                                    </div>
+                                    <div class="form-actions">
+                                        <button type="submit" class="btn btn-primary">Save changes</button>
+                                        <button type="button" class="btn">Cancel</button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </article>
+                        <article>
+                            <a name="buttons"></a>
+                            <h2 class="sg">Buttons</h2>
+                            <p class="sg"> <a href="#" class="btn" title="">Default Button</a> <a href="#" class="btn btn-primary" title="">Primary Button</a> <a href="#" class="btn btn-inverse" title="">Inverse Button</a> <a href="#" class="btn disabled" title="">Disabled Button</a> </p>
+                        </article>
+                        <article class="clearfix">
+                            <a name="images"></a>
+                            <h2 class="sg">Images</h2>
+                            <div class="captionImage left"> <img class="left" src="themes/barnardlevit/img/sample-pic-1.jpg" alt="Sample Pic 1">
+                                <p class="caption">This is an image caption.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <a name="video"></a>
+                            <h2 class="sg">Video</h2>
+                            <div class="widget widget-video">
+                                <div class="video-container">
+                                    <iframe src="http://www.youtube.com/embed/jwKKbt6KfrI" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <a name="sub-nav-anchor"></a>
+                            <h2 class="sg">Sub-Nav</h2>
+                            <p>The sub-nav accordion can go to five levels deep. In order to support touch devices accordion sections can be opened and closed using the icons to the right. Clicking on a link takes you to the linked page.</p>
+                            <div class="row">
+                                <div class="span3">
+                                    <nav id="sub-nav" class="sg">
+                                        <ul class="accordion">
+                                            <li class="section current"> <a class="section current" href="#sub-nav-anchor" title="">Link 1</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
+                                                <ul>
+                                                    <li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 1-1</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
+                                                        <ul>
+                                                            <li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 1-1-1</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
+                                                                <ul>
+                                                                    <li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 1-1-1-1</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
+                                                                        <ul>
+                                                                            <li class="link current"><a class="link current" href="#sub-nav-anchor" title="">Link 1-1-1-1-1</a></li>
+                                                                            <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-1-1-1-2</a></li>
+                                                                            <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-1-1-1-3</a></li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-1-1-2</a></li>
+                                                                    <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-1-1-3</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-1-2</a></li>
+                                                            <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-1-3</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 1-2</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
+                                                        <ul>
+                                                            <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-2-1</a></li>
+                                                            <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-2-2</a></li>
+                                                            <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-2-3</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 1-3</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
+                                                        <ul>
+                                                            <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-3-1</a></li>
+                                                            <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-3-2</a></li>
+                                                            <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 1-3-3</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 2</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
+                                                <ul>
+                                                    <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 2-1</a></li>
+                                                    <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 2-2</a></li>
+                                                    <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 2-3</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="section"> <a class="section" href="#sub-nav-anchor" title="">Link 3</a><span class="trigger-wrapper"><a href="#"><i class="icon-plus"></i></a></span>
+                                                <ul>
+                                                    <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 3-1</a></li>
+                                                    <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 3-2</a></li>
+                                                    <li class="link"><a class="link" href="#sub-nav-anchor" title="">Link 3-3</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </article>
+                        <article>
+                            <a name="breadcrumbs"></a>
+                            <h2 class="sg">Breadcrumbs</h2>
+                            <ul class="breadcrumb sg">
+                                <li><a href="#" title="">Page 1</a> <i class="icon-angle-right divider"></i></li>
+                                <li><a href="#" title="">Page 2</a> <i class="icon-angle-right divider"></i></li>
+                                <li><a href="#" title="">Page 3</a> <i class="icon-angle-right divider"></i></li>
+                                <li><a href="#" title="">Page 4</a> <i class="icon-angle-right divider"></i></li>
+                                <li class="active">Page 5</li>
+                            </ul>
+                        </article>
+                        <article>
+                            <a name="pagination"></a>
+                            <h2 class="sg">Pagination</h2>
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#" aria-label="Previous"> <span aria-hidden="true">&laquo;</span> </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next"> <span aria-hidden="true">&raquo;</span> </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </article>
+                        <article>
+                            <a name="gallery"></a>
+                            <h2 class="sg">Gallery</h2>
+                            <div class="widget widget-gallery">
+                                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    </ol>
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active"> <img src="..." alt="...">
+                                            <div class="carousel-caption"> ... </div>
+                                        </div>
+                                        <div class="item"> <img src="..." alt="...">
+                                            <div class="carousel-caption"> ... </div>
+                                        </div>
+                                        ... </div>
+
+                                    <!-- Controls -->
+                                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+                                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    <aside class="col-xs-6 col-md-4">
+                        <nav id="sg-nav" data-spy="affix" data-offset-top="180">
+                            <div class="widget-title">
+                                <h4>Style Guide Elements</h4>
+                            </div>
+                            <ul class="nav nav-list">
+                                <li><a href="#typography"><i class="icon-caret-right"></i> Typography</a></li>
+                                <li><a href="#tables"><i class="icon-caret-right"></i> Tables</a></li>
+                                <li><a href="#forms"><i class="icon-caret-right"></i> Forms</a></li>
+                                <li><a href="#buttons"><i class="icon-caret-right"></i> Buttons</a></li>
+                                <li><a href="#images"><i class="icon-caret-right"></i> Images</a></li>
+                                <li><a href="#video"><i class="icon-caret-right"></i> Video</a></li>
+                                <li><a href="#sub-nav-anchor" title=""><i class="icon-caret-right"></i> Sub-Nav</a></li>
+                                <li><a href="#quick-links"><i class="icon-caret-right"></i> Quick Links</a></li>
+                                <li><a href="#breadcrumbs"><i class="icon-caret-right"></i> Breadcrumbs</a></li>
+                                <li><a href="#pagination"><i class="icon-caret-right"></i> Pagination</a></li>
+                                <li><a href="#gallery"><i class="icon-caret-right"></i> Gallery</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
